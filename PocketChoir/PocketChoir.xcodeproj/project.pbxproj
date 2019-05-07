@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB8ABDF226E416F00942218 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8ABDE226E416F00942218 /* Sampler.swift */; };
+		520FC632226077B00099EF62 /* ReverbSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FC62E226077B00099EF62 /* ReverbSlide.swift */; };
+		520FC633226077B00099EF62 /* ReverbSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520FC62F226077B00099EF62 /* ReverbSlide.xib */; };
+		520FC634226077B00099EF62 /* DelaySlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FC630226077B00099EF62 /* DelaySlide.swift */; };
+		520FC635226077B00099EF62 /* DelaySlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520FC631226077B00099EF62 /* DelaySlide.xib */; };
+		5261CF612278EF5A0012EC91 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261CF602278EF5A0012EC91 /* SettingsViewController.swift */; };
+		6321B1E722605AAD00300915 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321B1E622605AAD00300915 /* PageViewController.swift */; };
+		6321B1E922605C7000300915 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321B1E822605C7000300915 /* AppViewController.swift */; };
+		6321B1EB22605F6700300915 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321B1EA22605F6700300915 /* SampleViewController.swift */; };
 		635D248F2249B25400DCC9A7 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D248E2249B25400DCC9A7 /* AudioEngine.swift */; };
 		635D2492224AC5BA00DCC9A7 /* Harmonizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D2491224AC5BA00DCC9A7 /* Harmonizer.swift */; };
 		63AFA72D2249ADBE001F0DDC /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AFA72A2249ADB5001F0DDC /* AudioKit.framework */; };
@@ -14,7 +23,7 @@
 		63AFA7312249ADBE001F0DDC /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AFA72C2249ADB5001F0DDC /* AudioKitUI.framework */; };
 		63AFA7322249ADBE001F0DDC /* AudioKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63AFA72C2249ADB5001F0DDC /* AudioKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63DB816822383C0F0012C9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB816722383C0F0012C9B5 /* AppDelegate.swift */; };
-		63DB816A22383C0F0012C9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB816922383C0F0012C9B5 /* ViewController.swift */; };
+		63DB816A22383C0F0012C9B5 /* ChordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB816922383C0F0012C9B5 /* ChordViewController.swift */; };
 		63DB816D22383C0F0012C9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DB816B22383C0F0012C9B5 /* Main.storyboard */; };
 		63DB817022383C0F0012C9B5 /* PocketChoir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63DB816E22383C0F0012C9B5 /* PocketChoir.xcdatamodeld */; };
 		63DB817222383C0F0012C9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DB817122383C0F0012C9B5 /* Assets.xcassets */; };
@@ -87,12 +96,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4AB8ABDE226E416F00942218 /* Sampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sampler.swift; sourceTree = "<group>"; };
+		520FC62E226077B00099EF62 /* ReverbSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverbSlide.swift; sourceTree = "<group>"; };
+		520FC62F226077B00099EF62 /* ReverbSlide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReverbSlide.xib; sourceTree = "<group>"; };
+		520FC630226077B00099EF62 /* DelaySlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelaySlide.swift; sourceTree = "<group>"; };
+		520FC631226077B00099EF62 /* DelaySlide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelaySlide.xib; sourceTree = "<group>"; };
+		5261CF602278EF5A0012EC91 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6321B1E622605AAD00300915 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		6321B1E822605C7000300915 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		6321B1EA22605F6700300915 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		635D248E2249B25400DCC9A7 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		635D2491224AC5BA00DCC9A7 /* Harmonizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harmonizer.swift; sourceTree = "<group>"; };
 		63AFA7242249ADB3001F0DDC /* AudioKit For iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AudioKit For iOS.xcodeproj"; path = "PocketChoir/AudioKit/iOS/AudioKit For iOS.xcodeproj"; sourceTree = "<group>"; };
 		63DB816422383C0F0012C9B5 /* PocketChoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketChoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB816722383C0F0012C9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63DB816922383C0F0012C9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63DB816922383C0F0012C9B5 /* ChordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordViewController.swift; sourceTree = "<group>"; };
 		63DB816C22383C0F0012C9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63DB816F22383C0F0012C9B5 /* PocketChoir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketChoir.xcdatamodel; sourceTree = "<group>"; };
 		63DB817122383C0F0012C9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PocketChoir/Assets.xcassets; sourceTree = SOURCE_ROOT; };
@@ -108,6 +126,8 @@
 		6B0F25C22248887B00CA323A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		6B0F25C32248887C00CA323A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		6B0F25C7224888AA00CA323A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6B30B4EE2260F04F0039F715 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "/Users/deryk/Documents/College/4Senior/SoftwareEngineering/Pocket Choir/GitHub/pocket-choir/PocketChoir/PocketChoir/Fonts/Roboto-Light.ttf"; sourceTree = "<absolute>"; };
+		6B30B4EF2260F04F0039F715 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "/Users/deryk/Documents/College/4Senior/SoftwareEngineering/Pocket Choir/GitHub/pocket-choir/PocketChoir/PocketChoir/Fonts/Roboto-Medium.ttf"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +157,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520FC62A226076320099EF62 /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				520FC630226077B00099EF62 /* DelaySlide.swift */,
+				520FC631226077B00099EF62 /* DelaySlide.xib */,
+				520FC62E226077B00099EF62 /* ReverbSlide.swift */,
+				520FC62F226077B00099EF62 /* ReverbSlide.xib */,
+			);
+			path = Sliders;
+			sourceTree = "<group>";
+		};
 		63AFA7252249ADB3001F0DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,9 +201,15 @@
 		63DB816622383C0F0012C9B5 /* PocketChoir */ = {
 			isa = PBXGroup;
 			children = (
+				4AB8ABDE226E416F00942218 /* Sampler.swift */,
+				520FC62A226076320099EF62 /* Sliders */,
 				6B0F25C122485DC500CA323A /* PocketChoir.entitlements */,
 				63DB816722383C0F0012C9B5 /* AppDelegate.swift */,
-				63DB816922383C0F0012C9B5 /* ViewController.swift */,
+				63DB816922383C0F0012C9B5 /* ChordViewController.swift */,
+				6321B1EA22605F6700300915 /* SampleViewController.swift */,
+				6321B1E822605C7000300915 /* AppViewController.swift */,
+				5261CF602278EF5A0012EC91 /* SettingsViewController.swift */,
+				6321B1E622605AAD00300915 /* PageViewController.swift */,
 				63DB816B22383C0F0012C9B5 /* Main.storyboard */,
 				63DB817122383C0F0012C9B5 /* Assets.xcassets */,
 				63DB817322383C0F0012C9B5 /* LaunchScreen.storyboard */,
@@ -209,6 +246,8 @@
 				6B0F25C22248887B00CA323A /* Montserrat-Bold.ttf */,
 				6B0F25C32248887C00CA323A /* Montserrat-Medium.ttf */,
 				6B0F25C7224888AA00CA323A /* Roboto-Bold.ttf */,
+				6B30B4EE2260F04F0039F715 /* Roboto-Light.ttf */,
+				6B30B4EF2260F04F0039F715 /* Roboto-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -354,12 +393,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520FC633226077B00099EF62 /* ReverbSlide.xib in Resources */,
 				6B0F25C42248887C00CA323A /* Montserrat-Bold.ttf in Resources */,
 				6B0F25C52248887C00CA323A /* Montserrat-Medium.ttf in Resources */,
 				6B0F25C8224888AA00CA323A /* Roboto-Bold.ttf in Resources */,
 				63DB817522383C0F0012C9B5 /* LaunchScreen.storyboard in Resources */,
 				63DB817222383C0F0012C9B5 /* Assets.xcassets in Resources */,
 				63DB816D22383C0F0012C9B5 /* Main.storyboard in Resources */,
+				520FC635226077B00099EF62 /* DelaySlide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +425,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DB816A22383C0F0012C9B5 /* ViewController.swift in Sources */,
+				520FC634226077B00099EF62 /* DelaySlide.swift in Sources */,
+				520FC632226077B00099EF62 /* ReverbSlide.swift in Sources */,
+				63DB816A22383C0F0012C9B5 /* ChordViewController.swift in Sources */,
 				635D2492224AC5BA00DCC9A7 /* Harmonizer.swift in Sources */,
 				635D248F2249B25400DCC9A7 /* AudioEngine.swift in Sources */,
+				6321B1E722605AAD00300915 /* PageViewController.swift in Sources */,
+				4AB8ABDF226E416F00942218 /* Sampler.swift in Sources */,
+				6321B1E922605C7000300915 /* AppViewController.swift in Sources */,
 				63DB816822383C0F0012C9B5 /* AppDelegate.swift in Sources */,
+				6321B1EB22605F6700300915 /* SampleViewController.swift in Sources */,
 				63DB817022383C0F0012C9B5 /* PocketChoir.xcdatamodeld in Sources */,
+				5261CF612278EF5A0012EC91 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
